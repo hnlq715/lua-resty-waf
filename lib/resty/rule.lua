@@ -8,6 +8,7 @@ local xss_rule_num = table.getn(xss_rule)
 
 local xss_rule_processor = function()
 	for i=1, xss_rule_num do
+		waf.id = 1000+i
 		if waf_regex(waf.args_get, xss_rule[i]) then
 			waf_deny()
 		end

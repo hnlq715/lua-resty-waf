@@ -1,0 +1,163 @@
+2014/05/22 17:33:02 [debug] 14322#0: bind() 0.0.0.0:1984 #6 
+2014/05/22 17:33:02 [notice] 14322#0: using the "epoll" event method
+2014/05/22 17:33:02 [notice] 14322#0: openresty/1.7.0.1rc0
+2014/05/22 17:33:02 [notice] 14322#0: built by gcc 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
+2014/05/22 17:33:02 [notice] 14322#0: OS: Linux 3.8.0-39-generic
+2014/05/22 17:33:02 [notice] 14322#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2014/05/22 17:33:02 [debug] 14323#0: write: 7, 00007FFFDA353930, 6, 0
+2014/05/22 17:33:02 [debug] 14323#0: malloc: 00000000018152E0:6144
+2014/05/22 17:33:02 [debug] 14323#0: malloc: 00000000018102C0:13824
+2014/05/22 17:33:02 [debug] 14323#0: malloc: 0000000001816AF0:6656
+2014/05/22 17:33:02 [debug] 14323#0: malloc: 000000000182BD90:6656
+2014/05/22 17:33:02 [debug] 14323#0: epoll add event: fd:6 op:1 ev:00002001
+2014/05/22 17:33:02 [debug] 14323#0: worker cycle
+2014/05/22 17:33:02 [debug] 14323#0: epoll timer: -1
+2014/05/22 17:33:02 [debug] 14323#0: epoll: fd:6 ev:0001 d:00000000018102C0
+2014/05/22 17:33:02 [debug] 14323#0: accept on 0.0.0.0:1984, ready: 0
+2014/05/22 17:33:02 [debug] 14323#0: posix_memalign: 000000000180B450:256 @16
+2014/05/22 17:33:02 [debug] 14323#0: *1 accept: 127.0.0.1 fd:7
+2014/05/22 17:33:02 [debug] 14323#0: posix_memalign: 000000000180B560:256 @16
+2014/05/22 17:33:02 [debug] 14323#0: *1 event timer add: 7: 60000:1400751242194
+2014/05/22 17:33:02 [debug] 14323#0: *1 reusable connection: 1
+2014/05/22 17:33:02 [debug] 14323#0: *1 epoll add event: fd:7 op:1 ev:80002001
+2014/05/22 17:33:02 [debug] 14323#0: timer delta: 54
+2014/05/22 17:33:02 [debug] 14323#0: posted events 0000000000000000
+2014/05/22 17:33:02 [debug] 14323#0: worker cycle
+2014/05/22 17:33:02 [debug] 14323#0: epoll timer: 60000
+2014/05/22 17:33:02 [debug] 14323#0: epoll: fd:7 ev:0001 d:0000000001810398
+2014/05/22 17:33:02 [debug] 14323#0: *1 http wait request handler
+2014/05/22 17:33:02 [debug] 14323#0: *1 malloc: 00000000018138D0:1024
+2014/05/22 17:33:02 [debug] 14323#0: *1 recv: fd:7 97 of 1024
+2014/05/22 17:33:02 [debug] 14323#0: *1 reusable connection: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 posix_memalign: 000000000182D7A0:4096 @16
+2014/05/22 17:33:02 [debug] 14323#0: *1 http process request line
+2014/05/22 17:33:02 [debug] 14323#0: *1 http request line: "POST / HTTP/1.1"
+2014/05/22 17:33:02 [debug] 14323#0: *1 http uri: "/"
+2014/05/22 17:33:02 [debug] 14323#0: *1 http args: ""
+2014/05/22 17:33:02 [debug] 14323#0: *1 http exten: ""
+2014/05/22 17:33:02 [debug] 14323#0: *1 http process request header line
+2014/05/22 17:33:02 [debug] 14323#0: *1 http header: "Host: localhost"
+2014/05/22 17:33:02 [debug] 14323#0: *1 http header: "Connection: Close"
+2014/05/22 17:33:02 [debug] 14323#0: *1 http header: "Content-Length: 22"
+2014/05/22 17:33:02 [debug] 14323#0: *1 http header done
+2014/05/22 17:33:02 [debug] 14323#0: *1 event timer del: 7: 1400751242194
+2014/05/22 17:33:02 [debug] 14323#0: *1 rewrite phase: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 rewrite phase: 1
+2014/05/22 17:33:02 [debug] 14323#0: *1 test location: "/"
+2014/05/22 17:33:02 [debug] 14323#0: *1 using configuration "/"
+2014/05/22 17:33:02 [debug] 14323#0: *1 http cl:22 max:31457280
+2014/05/22 17:33:02 [debug] 14323#0: *1 rewrite phase: 3
+2014/05/22 17:33:02 [debug] 14323#0: *1 rewrite phase: 4
+2014/05/22 17:33:02 [debug] 14323#0: *1 post rewrite phase: 5
+2014/05/22 17:33:02 [debug] 14323#0: *1 generic phase: 6
+2014/05/22 17:33:02 [debug] 14323#0: *1 generic phase: 7
+2014/05/22 17:33:02 [debug] 14323#0: *1 access phase: 8
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua access handler, uri:"/" c:1
+2014/05/22 17:33:02 [debug] 14323#0: *1 access phase: 8
+2014/05/22 17:33:02 [debug] 14323#0: *1 access phase: 9
+2014/05/22 17:33:02 [debug] 14323#0: *1 access phase: 10
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua access handler, uri:"/" c:1
+2014/05/22 17:33:02 [debug] 14323#0: *1 posix_memalign: 000000000182E7B0:4096 @16
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua creating new thread
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua reset ctx
+2014/05/22 17:33:02 [debug] 14323#0: *1 http cleanup add: 000000000182E700
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua run thread, top:0 c:1
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua request header: "Host: localhost"
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua request header: "Connection: Close"
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua request header: "Content-Length: 22"
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua start to read buffered request body
+2014/05/22 17:33:02 [debug] 14323#0: *1 http client request body preread 22
+2014/05/22 17:33:02 [debug] 14323#0: *1 http request body content length filter
+2014/05/22 17:33:02 [debug] 14323#0: *1 http body new buf t:1 f:0 000000000181391B, pos 000000000181391B, size: 22 file: 0, size: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua req body post read, c:2
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua has read buffered request body in a single run
+2014/05/22 17:33:02 [notice] 14323#0: *1 [lua] waf.lua:77: waf_get_args_post(): <script>, client: 127.0.0.1, server: localhost, request: "POST / HTTP/1.1", host: "localhost"
+2014/05/22 17:33:02 [notice] 14323#0: *1 [lua] waf.lua:77: waf_get_args_post(): 1, client: 127.0.0.1, server: localhost, request: "POST / HTTP/1.1", host: "localhost"
+2014/05/22 17:33:02 [notice] 14323#0: *1 [lua] waf.lua:77: waf_get_args_post(): 2, client: 127.0.0.1, server: localhost, request: "POST / HTTP/1.1", host: "localhost"
+2014/05/22 17:33:02 [notice] 14323#0: *1 [lua] waf.lua:29: waf_regex(): <script>12====<(?:s(?:cript|tyle)|i(?:frame|n(?:put|s))|f(?:rame(?:set)?|orm)|a(?:pplet|ddress|rea)|b(?:ase|gsound|ody)|l(?:ayer|ink)|meta|object|textareai|embed)[^>]*>, client: 127.0.0.1, server: localhost, request: "POST / HTTP/1.1", host: "localhost"
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua regex cache miss for match regex "<(?:s(?:cript|tyle)|i(?:frame|n(?:put|s))|f(?:rame(?:set)?|orm)|a(?:pplet|ddress|rea)|b(?:ase|gsound|ody)|l(?:ayer|ink)|meta|object|textareai|embed)[^>]*>" with options "isjo"
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua compiling match regex "<(?:s(?:cript|tyle)|i(?:frame|n(?:put|s))|f(?:rame(?:set)?|orm)|a(?:pplet|ddress|rea)|b(?:ase|gsound|ody)|l(?:ayer|ink)|meta|object|textareai|embed)[^>]*>" with options "isjo" (compile once: 1) (dfa mode: 0) (jit mode: 1)
+2014/05/22 17:33:02 [debug] 14323#0: *1 your pcre build does not have JIT support and the "j" regex option is ignored
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua saving compiled regex (0 captures) into the cache (entries 0)
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua exit with code 412
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua resume returned 1
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua thread yielded
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua thread aborting request with status 412
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua request cleanup: forcible=0
+2014/05/22 17:33:02 [debug] 14323#0: *1 http finalize request: 412, "/?" a:1, c:1
+2014/05/22 17:33:02 [debug] 14323#0: *1 http special response: 412, "/?"
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua capture header filter, uri "/"
+2014/05/22 17:33:02 [debug] 14323#0: *1 HTTP/1.1 412 Precondition Failed
+Server: openresty/1.7.0.1rc0
+Date: Thu, 22 May 2014 09:33:02 GMT
+Content-Type: text/html
+Content-Length: 197
+Connection: close
+
+2014/05/22 17:33:02 [debug] 14323#0: *1 write new buf t:1 f:0 000000000182EA00, pos 000000000182EA00, size: 168 file: 0, size: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 http write filter: l:0 f:0 s:168
+2014/05/22 17:33:02 [debug] 14323#0: *1 http output filter "/?"
+2014/05/22 17:33:02 [debug] 14323#0: *1 http copy filter: "/?"
+2014/05/22 17:33:02 [debug] 14323#0: *1 lua capture body filter, uri "/"
+2014/05/22 17:33:02 [debug] 14323#0: *1 http postpone filter "/?" 000000000182EBC8
+2014/05/22 17:33:02 [debug] 14323#0: *1 write old buf t:1 f:0 000000000182EA00, pos 000000000182EA00, size: 168 file: 0, size: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 write new buf t:0 f:0 0000000000000000, pos 0000000000715F20, size: 136 file: 0, size: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 write new buf t:0 f:0 0000000000000000, pos 00000000007154C0, size: 61 file: 0, size: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 http write filter: l:1 f:0 s:365
+2014/05/22 17:33:02 [debug] 14323#0: *1 http write filter limit 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 writev: 365
+2014/05/22 17:33:02 [debug] 14323#0: *1 http write filter 0000000000000000
+2014/05/22 17:33:02 [debug] 14323#0: *1 http copy filter: 0 "/?"
+2014/05/22 17:33:02 [debug] 14323#0: *1 http finalize request: 0, "/?" a:1, c:1
+2014/05/22 17:33:02 [debug] 14323#0: *1 event timer add: 7: 5000:1400751187194
+2014/05/22 17:33:02 [debug] 14323#0: *1 http lingering close handler
+2014/05/22 17:33:02 [debug] 14323#0: *1 recv: fd:7 -1 of 4096
+2014/05/22 17:33:02 [debug] 14323#0: *1 recv() not ready (11: Resource temporarily unavailable)
+2014/05/22 17:33:02 [debug] 14323#0: *1 lingering read: -2
+2014/05/22 17:33:02 [debug] 14323#0: *1 event timer: 7, old: 1400751187194, new: 1400751187194
+2014/05/22 17:33:02 [debug] 14323#0: timer delta: 0
+2014/05/22 17:33:02 [debug] 14323#0: posted events 0000000000000000
+2014/05/22 17:33:02 [debug] 14323#0: worker cycle
+2014/05/22 17:33:02 [debug] 14323#0: epoll timer: 5000
+2014/05/22 17:33:02 [debug] 14323#0: epoll: fd:7 ev:2011 d:0000000001810398
+2014/05/22 17:33:02 [debug] 14323#0: epoll_wait() error on fd:7 ev:2011
+2014/05/22 17:33:02 [debug] 14323#0: *1 http lingering close handler
+2014/05/22 17:33:02 [debug] 14323#0: *1 recv: fd:7 0 of 4096
+2014/05/22 17:33:02 [debug] 14323#0: *1 lingering read: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 http request count:1 blk:0
+2014/05/22 17:33:02 [debug] 14323#0: *1 http close request
+2014/05/22 17:33:02 [debug] 14323#0: *1 http log handler
+2014/05/22 17:33:02 [debug] 14323#0: *1 free: 000000000182D7A0, unused: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 free: 000000000182E7B0, unused: 2873
+2014/05/22 17:33:02 [debug] 14323#0: *1 close http connection: 7
+2014/05/22 17:33:02 [debug] 14323#0: *1 event timer del: 7: 1400751187194
+2014/05/22 17:33:02 [debug] 14323#0: *1 reusable connection: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 free: 00000000018138D0
+2014/05/22 17:33:02 [debug] 14323#0: *1 free: 000000000180B450, unused: 0
+2014/05/22 17:33:02 [debug] 14323#0: *1 free: 000000000180B560, unused: 120
+2014/05/22 17:33:02 [debug] 14323#0: timer delta: 2
+2014/05/22 17:33:02 [debug] 14323#0: posted events 0000000000000000
+2014/05/22 17:33:02 [debug] 14323#0: worker cycle
+2014/05/22 17:33:02 [debug] 14323#0: epoll timer: -1
+2014/05/22 17:33:02 [notice] 14323#0: signal 3 (SIGQUIT) received, shutting down
+2014/05/22 17:33:02 [info] 14323#0: epoll_wait() failed (4: Interrupted system call)
+2014/05/22 17:33:02 [debug] 14323#0: timer delta: 153
+2014/05/22 17:33:02 [debug] 14323#0: posted events 0000000000000000
+2014/05/22 17:33:02 [debug] 14323#0: flush files
+2014/05/22 17:33:02 [notice] 14323#0: exit
+2014/05/22 17:33:02 [debug] 14323#0: epoll del event: fd:6 op:2 ev:00000000
+2014/05/22 17:33:02 [debug] 14323#0: close listening 0.0.0.0:1984 #6 
+2014/05/22 17:33:02 [debug] 14323#0: run cleanup: 0000000001827C58
+2014/05/22 17:33:02 [debug] 14323#0: decrementing the reference count for Lua VM: 1
+2014/05/22 17:33:02 [debug] 14323#0: lua close the global Lua VM 0000000040F5C378
+2014/05/22 17:33:02 [debug] 14323#0: run cleanup: 0000000001824140
+2014/05/22 17:33:02 [debug] 14323#0: cleanup resolver
+2014/05/22 17:33:02 [debug] 14323#0: free: 0000000001829570
+2014/05/22 17:33:02 [debug] 14323#0: free: 000000000181F770
+2014/05/22 17:33:02 [debug] 14323#0: free: 000000000181E6B0
+2014/05/22 17:33:02 [debug] 14323#0: free: 000000000181D5F0
+2014/05/22 17:33:02 [debug] 14323#0: free: 000000000181C530
+2014/05/22 17:33:02 [debug] 14323#0: free: 000000000180C2B0, unused: 0
+2014/05/22 17:33:02 [debug] 14323#0: free: 0000000001818520, unused: 0
+2014/05/22 17:33:02 [debug] 14323#0: free: 0000000001820780, unused: 0
+2014/05/22 17:33:02 [debug] 14323#0: free: 0000000001824D50, unused: 144
